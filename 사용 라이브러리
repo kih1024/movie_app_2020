@@ -1,0 +1,7 @@
+prop-types : 내가 전달받은 props가 내가 원하는 props인지 확인해 주는것. 디비처럼 스키마 같은것을 정의해서 컴파일 단계에서 내가 잘못 입력한 props를 사전에 알려준다고 생각하면됨.
+참고 : https://reactjs-kr.firebaseapp.com/docs/typechecking-with-proptypes.html
+axios : fetch 와 같은 기능을 하는 라이브러리.
+
+create-react-app : react 프로젝트를 빠르게 시작하기 위한 프레임워크
+npx create-react-app my-app
+gh-pages : 나의 웹사이트를 깃허브의 github page 도메인에 나타나게 해줌. 일반적으로 동작하는 방식은 깃허브에서 나의 프로젝트 이름을 가져오는 식이다.
