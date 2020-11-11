@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 
+// 이 웹 사이트를 설명하는 페이지
 function About(props) {
   console.log(props);
   return (
