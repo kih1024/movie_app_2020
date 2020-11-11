@@ -6,7 +6,6 @@ import "./Movie.css";
 function Movie({ id, year, title, summary, poster, genres }) {
   return (
     <div className="movie">
-      {/* Detail 컴포넌트에서 영화 정보를 활용하기 위해서, App.js의 router가 Link 태그의 state 데이터를 props에 끼워서 해당 컴포넌트에 보내는것을 이용하여 state 정보를 입력.*/}
       <Link
         to={{
           pathname: `/movie/${id}`,
@@ -37,7 +36,6 @@ function Movie({ id, year, title, summary, poster, genres }) {
   );
 }
 
-// movie 컴포넌트의 스키마 정의.
 Movie.propTypes = {
   id: PropTypes.number.isRequired,
   year: PropTypes.number.isRequired,
